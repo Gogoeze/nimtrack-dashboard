@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>Nimtrack Map Dashboard</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href = "map-dashboard.css">
+  <div id="containers">
+    <div id="map_markers_div"></div>
+    <div id="side_div">
+      <div id="container">
+        <div id="box1"> <img width="50" height="50" src="https://img.icons8.com/matisse/100/full-battery.png"
+            alt="full-battery" />
+          <h6 style="text-align: center;">Node Battery </h6>
+          <h5 id="node-battery"></h5>
+        </div>
+
+        <div id="box2"><img width="50" height="50" src="https://img.icons8.com/matisse/100/full-battery.png" alt="wifi" />
+          <h6>Gateway Battery</h6>
+          <h5 id="gateway-battery"></h5>
+        </div>
+
+        <div id="box3"><img width="50" height="50" src="https://img.icons8.com/fluency/48/longitude.png"
+            alt="longitude" />
+          <h6>Longitude</h6>
+          <h5 id="longitude"></h5>
+        </div>
+
+        <div id="box4"> <img width="50" height="50" src="https://img.icons8.com/fluency/48/latitude.png"
+            alt="latitude" />
+          <h6>Latitude</h6>
+          <h5 id="latitude"></h5>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="map-dashboard.js"></script>
+</body>
+
+</html>
